@@ -1,0 +1,15 @@
+# Ignore local workspace caches and server runtimes
+.metadata/
+RemoteSystemsTempFiles/
+Servers/
+*.log
+
+# Ignore compiled Java output inside any project
+**/bin/
+**/target/
+**/*.class
+
+# Keep all Eclipse project structural files across all your projects
+!**/.project
+!**/.classpath
+!**/.settings/
