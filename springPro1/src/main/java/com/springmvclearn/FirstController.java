@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class FirstController {
 	@GetMapping("/hello")
 	public String hello() {
-        return "/WEB-INF/index2.jsp";
+        return "index2"; // or /WEB-INF/views/index2.jsp if you never configured view resolver
     }
 }
